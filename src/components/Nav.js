@@ -51,7 +51,7 @@ const NavWrapper = styled.nav`
 `;
 
 const Logo = styled.a`
-  padding: 0
+  padding: 0;
   width: 80px;
   margin-top: 4px;
   max-height: 70px;
