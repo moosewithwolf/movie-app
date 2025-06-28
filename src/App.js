@@ -1,5 +1,6 @@
 import "./App.css";
 import Banner from "./components/Banner";
+import Category from "./components/Category";
 import Nav from "./components/Nav";
 import styled from "styled-components";
 
@@ -10,6 +11,7 @@ function App() {
       <Container>
         <Nav />
         <Banner />
+        <Category />
       </Container>
     </div>
   );
