@@ -3,7 +3,7 @@ const mvRequests = {
     fetchNowPlaying: "movie/now_playing",
     fetchPopular: "movie/popular",
     fetchTopRated: "movie/top_rated",
-    fetchTrending: "trending/movie/all/week",
+    fetchTrending: "trending/all/week",
     fetchActionMovies: "/discover/movie?with_genres=28",
     fetchComedyMovies: "/discover/movie?with_genres=35",
     fetchHorrorMovies: "/discover/movie?with_genres=27",
