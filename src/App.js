@@ -1,8 +1,10 @@
 import "./App.css";
 import Banner from "./components/Banner";
 import Category from "./components/Category";
+import Row from "./components/Row";
 import Nav from "./components/Nav";
 import styled from "styled-components";
+import mvRequests from "./api/request";
 
 
 function App() {
@@ -12,6 +14,11 @@ function App() {
         <Nav />
         <Banner />
         <Category />
+        <Row title="Trending Now" id="TN" fetchUrl={mvRequests.fetchTrending}/>
+        <Row title="Top Rated" id="TR" fetchUrl={mvRequests.fetchTopRated}/>
+        <Row title="Action Movies" id="AM" fetchUrl={mvRequests.fetchActionMovies}/>
+        <Row title="Comedy Movies" id="CM" fetchUrl={mvRequests.fetchComedyMovies}/>
+
       </Container>
     </div>
   );
